@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#EBFF8F00">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtCityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter city name"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColorHint="#EF6C00"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:background="#6FF925"
+        android:textSize="18sp"
+        android:gravity="center" />
+
+</LinearLayout>
